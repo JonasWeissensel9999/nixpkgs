@@ -7888,6 +7888,8 @@ with pkgs;
 
   logstash-contrib = callPackage ../tools/misc/logstash/contrib.nix { };
 
+  c-lolcat = callPackage ../tools/misc/c-lolcat { };
+
   lolcat = callPackage ../tools/misc/lolcat { };
 
   lottieconverter = callPackage ../tools/misc/lottieconverter { };
