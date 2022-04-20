@@ -4478,6 +4478,8 @@ with pkgs;
 
   bash-supergenpass = callPackage ../tools/security/bash-supergenpass { };
 
+  swamp = callPackage ../tools/admin/swamp { };
+
   swappy = callPackage ../applications/misc/swappy { gtk = gtk3; };
 
   swego = callPackage ../servers/swego { };
